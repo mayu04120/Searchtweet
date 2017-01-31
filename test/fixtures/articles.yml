@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contents: MyString
+  comments: MyString
+  numberoflikes: 1
+  numberofretweet: 1
+  user_id: 1
+
+two:
+  contents: MyString
+  comments: MyString
+  numberoflikes: 1
+  numberofretweet: 1
+  user_id: 1

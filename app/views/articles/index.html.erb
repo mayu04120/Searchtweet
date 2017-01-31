@@ -1,0 +1,99 @@
+<div class="clearfix">
+
+<!-- titlebox -->
+
+    <div class="title_container">
+      <p>All</p>
+      <p>Masquerade</p>
+      <p>Searchtweet</p>
+  </div>
+
+<!-- add new button -->
+
+    <div class="post_button_position">
+      <%= link_to "Add Tweet", new_article_path, :class=>"post_button" %>
+    </div>
+</div>
+
+<!-- border -->
+
+<div class="border"></div>
+
+<!-- search field -->
+<div class="search_field">
+    <%= search_form_for @q do | f | %>
+    <p>キーワードで検索</p>
+    <p><%=f.text_field :contents_cont, :size=>"50"%></p>
+    <p>投稿した人のコメントで検索</p>
+    <p><%=f.text_field :comments_cont,:size=>"50"%></p>
+    <p>写真付きかどうか</p>
+    <p><%= f.check_box :imagetag_cont_any,{multiple: true},'With image', nil%>写真付き</p>
+    <p>どこの大学か</p>
+    <p>
+      <%= f.check_box :uni_cont_any,{multiple: true},'慶應', nil%>慶應
+      <%= f.check_box :uni_cont_any,{multiple: true},'早稲田', nil%>早稲田
+      <%= f.check_box :uni_cont_any,{multiple: true},'上智', nil%>上智
+      <%= f.check_box :uni_cont_any,{multiple: true},'明治', nil%>明治
+      <%= f.check_box :uni_cont_any,{multiple: true},'青学', nil%>青学
+      <%= f.check_box :uni_cont_any,{multiple: true},'立教', nil%>立教
+      <%= f.check_box :uni_cont_any,{multiple: true},'中央', nil%>中央
+      <%= f.check_box :uni_cont_any,{multiple: true},'法政', nil%>法政
+      <%= f.check_box :uni_cont_any,{multiple: true},'日大', nil%>日大
+      <%= f.check_box :uni_cont_any,{multiple: true},'東洋', nil%>東洋
+      <%= f.check_box :uni_cont_any,{multiple: true},'駒場', nil%>駒場
+      <%= f.check_box :uni_cont_any,{multiple: true},'専修', nil%>専修
+    </p>
+    <p>いいね数</p>
+  <p><%= f.search_field :numberoflikes_gteq %>以上<%= f.search_field :numberoflikes_lteq %>まで  </p>
+    <p>ＲＴ数</p>
+  <p><%= f.search_field :numberofretweet_gteq %>以上<%= f.search_field :numberofretweet_lteq %>まで  </p>
+      <%= f.submit %>
+   <p> <%= link_to "clear",articles_path %></p>
+    <% end %>
+</div>
+
+<!-- border -->
+
+<div class="border"></div>
+
+<!-- table -->
+
+<table>
+  <thead>
+    <tr>
+      <th>tweet内容</th>
+      <th>コメント</th>
+      <th><%=link_to "いいね数",sort:"numberoflikes"%></th>
+      <th>RT数</th>
+      <th>Image</th>
+      <th>大学名</th>
+      <th>特徴</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @articles.each do |article| %>
+    <tr>
+        <td><%= article.contents %></td>
+        <td><%= article.comments %></td>
+        <td><%= article.numberoflikes %></td>
+        <td><%= article.numberofretweet %></td> 
+             <% if article.image? %>
+          　 <td><%=  image_tag article.image.url%></td>
+          　<% else %>
+          　 <td>No Image</td>
+          　<% end %>
+        <td><%= article.uni %></td>
+        <td><%= article.imagetag %></td>
+        
+        <td><%= link_to "[Edit]", edit_article_path(article.id) %></td>
+        <td><%= link_to "[Delete]", article_path(article.id), method: :delete, data:{ confirm: "are you sure?"}%></td>
+      <% end %>
+    </tr>
+  </tbody>
+
+</table>
+
+ 

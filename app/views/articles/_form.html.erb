@@ -1,0 +1,59 @@
+
+<%= form_for @article do |f| %>
+<div class="addtweet">
+
+<p>Tweet contents</p>
+<p>
+  <%=f.text_area :contents,:class=>'tweet_content',:placeholder=>'write down your Tweet', :rows=>"4" %>
+</p>
+
+<p>comments</p>
+<p><%=f.text_area :comments,:class=>'comments_content',:placeholder=>'write down your comments', :rows=>"2" ,:maxlength=>'200' %>
+</p>
+
+<div class="clearfix">
+  <div class="addnew_leftbox">
+  <p>number of likes:</p>
+  <p>number of retweets</p>
+</div>
+  <div class="addnew_rightbox">
+    <p><%= f.number_field :numberoflikes, :min=>"0" %></p>
+    <p><%= f.number_field :numberofretweet, :min =>"0" %></p>
+  </div>
+</div>
+
+<div style="margin-top: 10px;">
+  <p>特徴</p>
+  <%= f.radio_button :uni,'慶應' %>慶應
+  <%= f.radio_button :uni,'早稲田' %>早稲田
+  <%= f.radio_button :uni,'上智' %>上智
+  <%= f.radio_button :uni,'明治' %>明治
+  <%= f.radio_button :uni,'青学' %>青学
+  <%= f.radio_button :uni,'立教' %>立教
+  <%= f.radio_button :uni,'中央' %>中央
+  <%= f.radio_button :uni,'法政' %>法政
+  <%= f.radio_button :uni,'日大' %>日大
+  <%= f.radio_button :uni,'東洋' %>東洋
+  <%= f.radio_button :uni,'駒場' %>駒場
+  <%= f.radio_button :uni,'専修'%>専修
+</div>
+
+
+
+
+<p>image/写真付きの場合、ラジオボタンのチェックも忘れないでね</p>
+<p><%= f.radio_button :imagetag,'With Image'%>写真付き</p>
+<p><%= f.file_field :image %> </p>
+
+<p>
+  <%= f.submit %>
+</p>
+<%= link_to "Zuruck zur Startsite", articles_path %>
+<%= @article.errors.any? %>
+<p>
+  <%= @article.errors.messages[:contents][0]%>
+</p>
+
+
+<% end %> 
+</div>

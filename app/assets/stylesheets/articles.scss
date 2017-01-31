@@ -1,0 +1,126 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.addtweet {
+  margin-left: 20px;
+}
+.title_container {
+  float: left;
+  display: inline-block;
+ background-color: black;
+ height: 350px;
+ width: 230px;
+ margin-left: 40px;
+ text-align: center;
+ line-height: 80px;
+}
+.title_container p {
+  color: white;
+  font-size: 30px;
+  font-family: Arial Black;
+}
+.title_container p:nth-of-type(1):first-letter {
+  font-size: 40px;
+  color: red;
+}
+
+/*all masq page add tweet button*/
+.post_button_position {
+  float: right;
+  width:50%;
+  height: 350px;
+  line-height: 500px;
+  text-align: center;	
+}
+.post_button {
+  display: inline-block;
+  width: 200px;
+  height: 54px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 54px;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 black;
+}
+.post_button::before,
+.post_button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.post_button,
+.post_button::before,
+.post_button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.post_button {
+	background-color: grey;
+	color: #fff;
+}
+.post_button:hover {
+	letter-spacing: 5px;
+}
+
+/*allmasq page table*/
+table {
+  width:80%;
+  margin:auto;
+  margin-top: 20px;
+  text-align: center;
+}
+tr,th,td {
+  width: 160px;
+  background-color: grey;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+thead {
+  background-color: grey;
+}
+
+/*border*/
+.border {
+  width: 100%;
+  border-style: dashed;
+  border-color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*search*/
+.search_field {
+  margin-left: 12px;
+}
+
+/*add tweet page*/
+.tweet_content {
+  margin: auto;
+  width: 80%;
+  height: 100px;
+}
+.comments_content {
+  margin: auto;
+  width: 80%;
+  height: 50px;
+}
+.addnew_leftbox {
+display: inline-block;
+float: left;
+width: 200px;
+}
+.addnew_rightbox {
+display: inline-block;
+float: left;
+width: 100px;
+}
