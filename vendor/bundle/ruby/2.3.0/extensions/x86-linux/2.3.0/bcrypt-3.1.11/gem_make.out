@@ -1,0 +1,5 @@
+current directory: /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+/usr/bin/ruby2.3 -r ./siteconf20170201-1853-fj5i8n.rb extconf.rb
+creating Makefile
+
+Text file busy @ unlink_internal - ./siteconf20170201-1853-fj5i8n.rb
