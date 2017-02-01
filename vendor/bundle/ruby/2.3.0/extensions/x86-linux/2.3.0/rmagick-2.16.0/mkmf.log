@@ -1109,7 +1109,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/usr/include/i386-linux-gnu/ruby-2.3.0 -I/usr/include/ruby-2.3.0/ruby/backward -I/usr/include/ruby-2.3.0 -I.  -fopenmp -I/usr/include/ImageMagick    -fopenmp -I/usr/include/ImageMagick   conftest.c  -L. -L/usr/lib/i386-linux-gnu  -lMagickCore      -lMagickCore    -lruby-2.3  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
-/tmp/ccSZdYT4.o: In function `t':
+/tmp/ccUtYo8V.o: In function `t':
 conftest.c:(.text+0x34): undefined reference to `RotationalBlurImage'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -1178,7 +1178,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/usr/include/i386-linux-gnu/ruby-2.3.0 -I/usr/include/ruby-2.3.0/ruby/backward -I/usr/include/ruby-2.3.0 -I.  -fopenmp -I/usr/include/ImageMagick    -fopenmp -I/usr/include/ImageMagick   conftest.c  -L. -L/usr/lib/i386-linux-gnu  -lMagickCore      -lMagickCore    -lruby-2.3  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
-/tmp/ccGh6lM0.o: In function `t':
+/tmp/cc7WYkyc.o: In function `t':
 conftest.c:(.text+0x34): undefined reference to `RotationalBlurImageChannel'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -3488,7 +3488,7 @@ extconf.h is:
 
 
 ======================================================================
-Wed 01Feb17 04:20:31
+Wed 01Feb17 07:54:56
 This installation of RMagick 2.16.0 is configured for
 Ruby 2.3.3 (i386-linux-gnu) and ImageMagick 6.7.7
 ======================================================================

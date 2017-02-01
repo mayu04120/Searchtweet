@@ -1,5 +1,5 @@
 current directory: /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.17/ext/ffi_c
-/usr/bin/ruby2.3 -r ./siteconf20170201-1853-jsru2f.rb extconf.rb
+/usr/bin/ruby2.3 -r ./siteconf20170201-6308-1pd1rsy.rb extconf.rb
 checking for ffi_call() in -lffi... yes
 checking for ffi_prep_closure()... yes
 checking for ffi_raw_call()... yes
@@ -15,4 +15,4 @@ To see why this extension failed to compile, please check the mkmf.log which can
 
   /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0/ffi-1.9.17/mkmf.log
 
-Text file busy @ unlink_internal - ./siteconf20170201-1853-jsru2f.rb
+Text file busy @ unlink_internal - ./siteconf20170201-6308-1pd1rsy.rb

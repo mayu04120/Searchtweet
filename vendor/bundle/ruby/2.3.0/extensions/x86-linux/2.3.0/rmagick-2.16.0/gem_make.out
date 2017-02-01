@@ -1,5 +1,5 @@
 current directory: /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/rmagick-2.16.0/ext/RMagick
-/usr/bin/ruby2.3 -r ./siteconf20170201-1853-19lgjyi.rb extconf.rb
+/usr/bin/ruby2.3 -r ./siteconf20170201-6308-1tmansi.rb extconf.rb
 checking for gcc... yes
 checking for Magick-config... yes
 
@@ -132,7 +132,7 @@ creating Makefile
 
 
 ======================================================================
-Wed 01Feb17 04:20:31
+Wed 01Feb17 07:54:56
 This installation of RMagick 2.16.0 is configured for
 Ruby 2.3.3 (i386-linux-gnu) and ImageMagick 6.7.7
 ======================================================================
@@ -144,4 +144,4 @@ To see why this extension failed to compile, please check the mkmf.log which can
 
   /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0/rmagick-2.16.0/mkmf.log
 
-Text file busy @ unlink_internal - ./siteconf20170201-1853-19lgjyi.rb
+Text file busy @ unlink_internal - ./siteconf20170201-6308-1tmansi.rb
