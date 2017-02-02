@@ -1,5 +1,5 @@
-current directory: /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/nio4r
-/usr/bin/ruby2.3 -r ./siteconf20170201-6308-1eusc5t.rb extconf.rb
+current directory: /vagrant/SearchTweet/vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/nio4r
+/usr/bin/ruby2.3 -r ./siteconf20170202-4893-5a4qmh.rb extconf.rb 
 checking for unistd.h... yes
 checking for rb_thread_blocking_region()... no
 checking for rb_thread_call_without_gvl()... yes
@@ -13,6 +13,6 @@ creating Makefile
 
 To see why this extension failed to compile, please check the mkmf.log which can be found here:
 
-  /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0/nio4r-1.2.1/mkmf.log
+  /vagrant/SearchTweet/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0/nio4r-1.2.1/mkmf.log
 
-Text file busy @ unlink_internal - ./siteconf20170201-6308-1eusc5t.rb
+Text file busy @ unlink_internal - ./siteconf20170202-4893-5a4qmh.rb

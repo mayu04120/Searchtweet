@@ -1,18 +1,16 @@
-current directory: /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.17/ext/ffi_c
-/usr/bin/ruby2.3 -r ./siteconf20170201-6308-1pd1rsy.rb extconf.rb
-checking for ffi_call() in -lffi... yes
-checking for ffi_prep_closure()... yes
-checking for ffi_raw_call()... yes
-checking for ffi_prep_raw_closure()... yes
+current directory: /vagrant/SearchTweet/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.17/ext/ffi_c
+/usr/bin/ruby2.3 -r ./siteconf20170202-4893-yoxa89.rb extconf.rb 
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... no
 checking for rb_thread_blocking_region()... no
 checking for rb_thread_call_with_gvl()... yes
 checking for rb_thread_call_without_gvl()... yes
-checking for ffi_prep_cif_var()... yes
+checking for ffi_prep_cif_var()... no
 creating extconf.h
 creating Makefile
 
 To see why this extension failed to compile, please check the mkmf.log which can be found here:
 
-  /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0/ffi-1.9.17/mkmf.log
+  /vagrant/SearchTweet/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0/ffi-1.9.17/mkmf.log
 
-Text file busy @ unlink_internal - ./siteconf20170201-6308-1pd1rsy.rb
+Text file busy @ unlink_internal - ./siteconf20170202-4893-yoxa89.rb

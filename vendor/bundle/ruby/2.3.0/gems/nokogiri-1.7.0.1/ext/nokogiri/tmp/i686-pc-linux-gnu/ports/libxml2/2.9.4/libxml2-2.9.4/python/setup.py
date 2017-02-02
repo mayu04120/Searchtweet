@@ -8,7 +8,7 @@ from distutils.core import setup, Extension
 # Below ROOT, we expect to find include, include/libxml2, lib and bin.
 # On *nix, it is not needed (but should not harm),
 # on Windows, it is set by configure.js.
-ROOT = r'/vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.7.0.1/ports/i686-pc-linux-gnu/libxml2/2.9.4'
+ROOT = r'/vagrant/SearchTweet/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.7.0.1/ports/i686-pc-linux-gnu/libxml2/2.9.4'
 
 # Thread-enabled libxml2
 with_threads = 1

@@ -1,0 +1,5 @@
+current directory: /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/home/vagrant/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170201-26183-10hxpgu.rb extconf.rb 
+creating Makefile
+
+Text file busy @ unlink_internal - ./siteconf20170201-26183-10hxpgu.rb

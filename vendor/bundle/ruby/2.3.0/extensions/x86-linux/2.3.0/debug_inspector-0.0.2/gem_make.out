@@ -1,5 +1,5 @@
-current directory: /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
-/usr/bin/ruby2.3 -r ./siteconf20170201-6308-1c0cerr.rb extconf.rb
+current directory: /vagrant/SearchTweet/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/usr/bin/ruby2.3 -r ./siteconf20170202-4893-pi6y9h.rb extconf.rb 
 creating Makefile
 
-Text file busy @ unlink_internal - ./siteconf20170201-6308-1c0cerr.rb
+Text file busy @ unlink_internal - ./siteconf20170202-4893-pi6y9h.rb

@@ -1,0 +1,5 @@
+current directory: /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+/home/vagrant/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170201-26183-1t7lby3.rb extconf.rb 
+creating Makefile
+
+Text file busy @ unlink_internal - ./siteconf20170201-26183-1t7lby3.rb

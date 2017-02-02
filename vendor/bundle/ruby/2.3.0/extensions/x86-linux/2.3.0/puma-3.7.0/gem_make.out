@@ -1,12 +1,11 @@
-current directory: /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/puma-3.7.0/ext/puma_http11
-/usr/bin/ruby2.3 -r ./siteconf20170201-6308-g840m2.rb extconf.rb
-checking for BIO_read() in -lcrypto... yes
-checking for SSL_CTX_new() in -lssl... yes
-checking for openssl/bio.h... yes
+current directory: /vagrant/SearchTweet/vendor/bundle/ruby/2.3.0/gems/puma-3.7.0/ext/puma_http11
+/usr/bin/ruby2.3 -r ./siteconf20170202-4893-1bcamr9.rb extconf.rb 
+checking for BIO_read() in -lcrypto... no
+checking for BIO_read() in -llibeay32... no
 creating Makefile
 
 To see why this extension failed to compile, please check the mkmf.log which can be found here:
 
-  /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0/puma-3.7.0/mkmf.log
+  /vagrant/SearchTweet/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0/puma-3.7.0/mkmf.log
 
-Text file busy @ unlink_internal - ./siteconf20170201-6308-g840m2.rb
+Text file busy @ unlink_internal - ./siteconf20170202-4893-1bcamr9.rb

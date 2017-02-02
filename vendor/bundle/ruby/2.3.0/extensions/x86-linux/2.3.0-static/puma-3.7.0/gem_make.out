@@ -1,0 +1,12 @@
+current directory: /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/gems/puma-3.7.0/ext/puma_http11
+/home/vagrant/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170201-26183-10we4w2.rb extconf.rb 
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /vagrant/Searchtweet/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0-static/puma-3.7.0/mkmf.log
+
+Text file busy @ unlink_internal - ./siteconf20170201-26183-10we4w2.rb
